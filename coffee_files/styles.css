@@ -1,0 +1,155 @@
+body 
+{
+	background-color: #E0E0E0;
+	margin: 0 auto;
+}
+* 
+	{
+	margin: 0 auto;
+    padding: 0;
+}
+div.comida
+{
+	display: grid; 
+	grid-template-columns: repeat(5, 1fr); 
+	background-color: black;
+	width: 1000px;
+	text-align: center;
+	border-radius: 4px;
+}
+@media (max-width: 400px){
+	table{
+		width: 100%
+	}
+	td{
+		width: 100%
+	}
+	div.comida{
+		display: grid; 
+		grid-template-columns: repeat(2, 1fr); 
+		width: 100%
+	}
+	div.sabritas{
+		display: grid; 
+		grid-template-columns: repeat(2, 5fr); 
+	}
+}
+div.bebidas
+{
+	display: grid; grid-template-columns: repeat(5, 1fr); 
+	background-color: black;
+	width: 1000px;
+	text-align: center;
+	border-radius: 4px;
+}
+div.sabritas
+{
+	display: grid; grid-template-columns: repeat( 5, 1fr); 
+	background-color: black;
+	width: 1000px;
+	text-align: center;
+	border-radius: 4px;
+}
+div.galletas
+{
+	display: grid; grid-template-columns: repeat( 5, 1fr); 
+	background-color: black;
+	width: 1000px;
+	text-align: center;
+	border-radius: 4px;
+}
+div.dulces
+{
+	display: grid; grid-template-columns: repeat( 5, 1fr); 
+	background-color: black;
+	width: 1000px;
+	text-align: center;
+	border-radius: 4px;
+}
+h4
+{
+	width: 30vh;
+	height: 7vh;
+	font-size: 5vh;
+	padding-top: 1vh;
+	font-family: Poppins;
+	text-align: center;
+	background-color: #F5F5DC;
+	background: linear-gradient(to bottom, #F5F5DC, rgba(0, 0, 0, 0.1));
+}
+h3
+{
+	height: 7vh;
+	font-size: 3.5vh;
+	padding-bottom: 3vh;
+	font-family: Poppins;
+	text-align: center;
+	background: linear-gradient(to bottom, #F5F5DC, rgba(0, 0, 0, 0.1));
+	
+}
+table
+{ 
+	background-color: #E0E0E0; 
+	width: 1000px; 
+	text-align: center; 
+	margin: 0 auto;
+	border-color: black;
+	border-spacing: 0;
+	border: 2px;
+}
+td
+{
+	background-color: black;
+	text-align: left;
+	border-color: #F5F5DC;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	width: 100%
+}
+td.comida{
+	text-align: center;
+	padding-bottom: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+td.bebidas{
+	text-align: center;
+	padding-bottom: 10px;
+} 
+td.sabritas{
+	text-align: center;
+	padding-bottom: 10px;
+}
+td.galletas{
+	text-align: center;
+	padding-bottom: 10px;
+}
+td.dulces{
+	text-align: center;
+	padding-bottom: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+th 
+{
+	text-align: left;
+	font-family: Poppins;
+	font-size: 3vh; 
+	text-decoration: underline;
+}
+a 
+{
+	font-size: 20px;
+	font-family: Poppins;
+    color: #F5F5DC;
+    text-decoration: none;
+} 
+label
+{
+	color: white;
+	text-align: center;
+}
+button{
+	background-color: black;
+	color: white;
+}

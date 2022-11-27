@@ -1,0 +1,51 @@
+body
+{
+	margin: 0 auto;
+	background-image: url(./coffee_files/caf.png); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	background-position: center;
+}
+body:before{
+	content: "";
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(black, rgba(0, 0, 0, 0.1));
+	opacity: 0.9;
+	z-index: -1;
+}
+* 
+{
+	margin: 0 auto;
+	background-size: 100%;
+}
+h2
+{
+	font-size: 5vh;
+	color: white; 
+	font-family: helvetica;
+	margin-top: 20px;
+	padding-bottom: 0vh;
+}
+a
+{
+	color: white; 
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+div.index{
+	text-align: center; 
+}
+a.iniciarsesion{
+	font-size: 2vh; 
+	margin-right: 30px;
+}
+a.registro{
+	font-size: 2vh;
+}
+div.logocbtis37{
+}
